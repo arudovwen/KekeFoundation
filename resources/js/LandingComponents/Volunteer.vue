@@ -130,7 +130,7 @@ export default {
   },
   methods: {
     submit() {
-      this.form.post(this.route("login"), {
+      this.form.post('/send-mail', {
         onFinish: () => this.form.reset("password"),
       });
     },

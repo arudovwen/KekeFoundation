@@ -19761,7 +19761,7 @@ __webpack_require__.r(__webpack_exports__);
     submit: function submit() {
       var _this = this;
 
-      this.form.post(this.route("login"), {
+      this.form.post('/send-mail', {
         onFinish: function onFinish() {
           return _this.form.reset("password");
         }
