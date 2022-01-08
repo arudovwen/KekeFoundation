@@ -1,0 +1,21 @@
+html{
+  scroll-behavior: smooth;
+  transition: 0.4s;
+}
+.carousel__prev, .carousel__next {
+  background-color:red !important;
+}
+.my-gallery{
+  display: flex;
+  flex-wrap:wrap;
+}
+.gallery-thumbnail{
+  a{
+    img{
+      transition:0.4s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+}
