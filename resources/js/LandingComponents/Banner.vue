@@ -25,7 +25,7 @@
 </template>
 <style scoped lang="scss">
 section{
-  min-height: 100vh;
+  height: 100vh;
   &::before {
     content: "";
     background-image: url(/images/kekeb.jpg);
@@ -33,7 +33,7 @@ section{
     background-position: center;
     background-attachment: fixed;
     filter: grayscale(1);
-    height: 100%;
+    height: 100vh;
     width: 100%;
     position: absolute;
   }
@@ -42,7 +42,7 @@ section{
     position: absolute;
     background-color: rgba($color: #000000, $alpha: 0.6);
     width: 100%;
-    height: 100%;
+    height: 100vh;
   }
 }
 </style>
