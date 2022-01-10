@@ -21,6 +21,7 @@
      <Link href="/gallery"> <BreezeButton class="  md:py-4 px-2 outline bg-transparent"><PlayIcon class="w-4 h-4 mr-1"/> Watch video</BreezeButton></Link>
      </span>
     </div>
+   <span class="banner-arrow"> <ArrowNarrowDownIcon class="h-10 w-8 text-white motion-safe:animate-bounce"/></span>
   </section>
 </template>
 <style scoped lang="scss">
@@ -49,7 +50,7 @@ section{
 
 <script>
 import BreezeButton from "@/Components/Button.vue";
-import {PlayIcon} from "@heroicons/vue/solid";
+import {PlayIcon,ArrowNarrowDownIcon} from "@heroicons/vue/solid";
 import { Link } from "@inertiajs/inertia-vue3";
 export default {
 
@@ -59,6 +60,7 @@ export default {
   },
   components:{
     BreezeButton,
+    ArrowNarrowDownIcon,
     PlayIcon,
     Link
   }

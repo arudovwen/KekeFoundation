@@ -16,7 +16,7 @@
       <div class="hidden md:block md:w-3/6">
         <img src="" alt="" srcset="" />
       </div>
-      <div  class="md:w-3/6 bg-white p-5 rounded-xl">
+      <div  class="w-full md:w-3/6 bg-white p-5 rounded-xl">
         <div >
           <BreezeValidationErrors class="mb-4" />
           <form @submit.prevent="submit" class="w-full">
@@ -52,7 +52,7 @@
                 class="mt-1 block w-full"
                 v-model="form.message"
                 required
-                
+
                 autocomplete="message"
               />
             </div>

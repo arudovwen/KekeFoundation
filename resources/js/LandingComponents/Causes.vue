@@ -107,7 +107,7 @@ export default {
   },
   mounted(){
     if(window.innerWidth < 900){
-      this.items=1
+      this.itemscount=1
     }
   }
 };

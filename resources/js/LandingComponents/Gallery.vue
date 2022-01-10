@@ -4,7 +4,7 @@
       <div
         v-for="(n, id) in options"
         :key="id"
-        class="h-64 bg-black border w-3/12 overflow-hidden"
+        class=" md:h-64 bg-black border w-3/12 overflow-hidden"
       >
         <img :src="n.img" class="hover:scale-125 object-fill" />
       </div>

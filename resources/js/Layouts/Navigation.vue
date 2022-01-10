@@ -6,7 +6,7 @@
     <nav
       class="container px-5 mx-auto relative flex justify-between items-center"
     >
-      <div class="logo py-5"><Link href="/">KEKE FOUNDATION</Link></div>
+      <div class="logo py-5"><Link href="/" class=" flex items-center"><img src="/images/logocolor.png" class="mr-2 logoimg" alt="keke foundation"/> KEKE FOUNDATION</Link></div>
       <MenuAlt3Icon
         @click="toggleMobileNav = !toggleMobileNav"
         class="h-7 w-6 text-white"
@@ -120,7 +120,7 @@ export default {
   },
   mounted() {
     if(this.$page.url !== '/'){
-       
+
         this.active = true
       }
     window.addEventListener("scroll", () => {
@@ -185,5 +185,12 @@ nav {
       }
     }
   }
+}
+.logoimg{
+  width:40px;
+  height:auto;
+   @media (max-width: 767px) {
+          width:30px;
+        }
 }
 </style>
