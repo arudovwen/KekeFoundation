@@ -4,29 +4,29 @@
       <div class="text-center mb-10">
         <h2 class="mb-5 text-xl md:text-3xl font-bold"><span class="text-black">OUR</span> <span  class="text-red-500">CAUSES</span></h2>
         <p>
-          Far far away, behind the word mountains, far from the countries <br>
-          Vokalia and Consonantia, there live the blind texts.
+         We strive to lend a helping hand towards the care of children in every aspect that we can.
         </p>
       </div>
 
       <div>
-        <carousel :items-to-show="items">
-          <slide v-for="slide in 10" :key="slide" class="p-4">
-            <div class="shadow-lg w-full rounded h-96 bg-white">
+        <carousel :items-to-show="itemscount">
+          <slide v-for="slide in items" :key="slide.name" class="p-4">
+            <div class="shadow-lg w-full rounded h-100 bg-white">
              <div class="h-40 overflow-hidden">
-                <img src="" alt="img" class="h-full hover:scale-125" />
+                <img :src="slide.img" alt="img" class="w-full h-full hover:scale-125 object-cover" />
              </div>
               <div class="p-5 text-left">
-               <p>EDUCATION</p>
-              <p class="mb-4 font-bold">Above Hath Fifth Of Open Meat fourth shall meat cattle.</p>
+               <p class="font-bold">{{slide.name}}</p>
+              <p class="mb-4 ">{{ slide.text }}
+</p>
               <div class="flex justify-between mb-3 text-sm">
-                <span>Raised : N20000</span>
-                <span>Goal : N30000</span>
+                <span>Raised : NGN{{slide.raised}}</span>
+                <span>Goal : NGN{{slide.goal}}</span>
               </div>
               <hr>
               <div class="flex justify-between items-center mt-3">
 <BreezeButton>Donate</BreezeButton>
-<span class="text-sm">89 donors</span>
+<span class="text-sm">{{ slide.donors }} donors</span>
               </div>
               </div>
             </div>
@@ -60,7 +60,49 @@ export default {
   },
   data() {
     return {
-     items:4
+      itemscount:4,
+     items:[
+       {
+         'name':'EDUCATION',
+         'text':'Give a child the means to learn and attain good education.',
+         'raised':100000,
+         'goal':200000,
+         'donors':12,
+         'img':'/images/main1.jpg'
+       },
+        {
+         'name':'Food',
+         'text':'Contribute towards eradicating malnutrition in children.',
+         'raised':136000,
+         'goal':200000,
+          'donors':33,
+           'img':'/images/main2.jpg'
+       },
+        {
+         'name':'Clothing',
+         'text':'Donate raiment or send an amount to provide clothes for children.',
+         'raised':150000,
+         'goal':250000,
+          'donors':14,
+           'img':'/images/main1.jpg'
+       },
+        {
+         'name':'Health',
+         'text':'Everyday a child suffers due to a medical condition. Support healthcare today.',
+         'raised':80000,
+         'goal':120000,
+          'donors':18,
+           'img':'/images/main2.jpg'
+       },
+       {
+         'name':'Shelter',
+         'text':'Contribute to shield a child from the scorching sun and pounding rain.',
+         'raised':120000,
+         'goal':203000,
+          'donors':22,
+           'img':'/images/main2.jpg'
+       },
+     ]
     };
   },
   mounted(){

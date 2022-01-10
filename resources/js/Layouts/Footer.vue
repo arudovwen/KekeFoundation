@@ -4,7 +4,9 @@
 
       <div class="basis-1/2 p-3">
         <h3 class="text-3xl font-bold">About us</h3>
-        <p class="text-slate-300 mb-5 text-sm"> Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. Realize that things will be hard at first, but the rewards will be worth it.</p>
+        <p class="text-slate-300 mb-5 text-sm">Keke Circle Foundation was founded on the 24 of April 2021
+We are an NGO set up primarily for the amelioration of children.
+Our sole purpose is to reach out and lend a helping hand towards providing a better life for children.</p>
 <small class="text-slate-300"> Copyright &#169;{{new Date().getFullYear()}} All rights reserved | <a href="https://arudovwen.me">Arudovwen.me</a> </small>
       </div>
        <div  class="basis-1/4 p-3">

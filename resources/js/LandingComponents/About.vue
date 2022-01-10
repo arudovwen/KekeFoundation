@@ -5,21 +5,21 @@
       <HeartIcon  class="h-28 w-28 text-red-500 mr-1"/>
          <span class="p-3">
           <h4 class="font-bold">Make Donation</h4>
-          <p class="text-slate-500">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+          <p class="text-slate-500">Charity is measured not only in substance but by the heart that offers it. Join us to support a child today.</p>
        </span>
       </span>
         <span class="flex p-3">
        <HandIcon class="h-28 w-28 text-red-500 mr-1"/>
          <span class="p-3">
           <h4 class="font-bold">Become A Volunteer</h4>
-          <p class="text-slate-500">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+          <p class="text-slate-500">There's never too many warriors at the battlefield. More people means easier and quicker victory. You too can be a soldier in our army.</p>
        </span>
       </span>
          <span class="flex p-3">
        <BriefcaseIcon class="h-28 w-28 text-red-500" mr-1/>
          <span class="p-3">
           <h4 class="font-bold">Sponsorship</h4>
-          <p class="text-slate-500">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+          <p class="text-slate-500">For Sponsorship please send us an email. Support a child towards a better life.</p>
        </span>
       </span>
     </div>

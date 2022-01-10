@@ -40,7 +40,7 @@
                 class="mt-1 block w-full"
                 v-model="form.email"
                 required
-                autofocus
+
                 autocomplete="email"
               />
             </div>
@@ -52,7 +52,7 @@
                 class="mt-1 block w-full"
                 v-model="form.message"
                 required
-                autofocus
+                
                 autocomplete="message"
               />
             </div>

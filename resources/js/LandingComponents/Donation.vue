@@ -4,23 +4,22 @@
       <div class="text-center mb-10">
         <h2 class="mb-5 text-xl md:text-3xl font-bold"><span class="text-black">LATEST</span> <span  class="text-red-500">DONATIONS</span></h2>
         <p>
-          Far far away, behind the word mountains, far from the countries <br>
-          Vokalia and Consonantia, there live the blind texts.
+         Every penny is worth it as you join us to put a smile on the faces of children.
         </p>
       </div>
 
       <div class="">
         <carousel :items-to-show="items">
-          <slide v-for="slide in 10" :key="slide" class="p-4">
+          <slide v-for="slide in options" :key="slide.name" class="p-4">
             <div class="shadow-lg w-full rounded-lg h-48 flex bg-white py-2 px-4">
              <div class="flex items-center justify-center">
-                <img src="" alt="img" class="h-28 w-28 rounded-full outline" />
+                <img :src="slide.img" alt="img" class="h-28 w-28 rounded-full outline object-cover" />
              </div>
               <div class="p-5 text-left">
-               <p>John Snow</p>
+               <p>{{slide.name}}</p>
                <small class="text-slate-500">Donated minutes ago</small>
-              <p class="mb-4 font-bold">Donated N2000</p>
-              <p class="text-red-300">Children Need Food</p>
+              <p class="mb-4 font-bold">Donated NGN{{slide.amount}}</p>
+              <p class="text-red-300">{{slide.comment}}</p>
 
               </div>
             </div>
@@ -55,7 +54,33 @@ export default {
   },
   data() {
     return {
-items:3
+items:3,
+options:[{
+  'name':'Amaka Igwe',
+  'amount':24000,
+  'comment':'God bless the kids',
+  'img':'/images/main1.jpg'
+
+},
+{
+  'name':'John Eguavoen',
+  'amount':25000,
+  'comment':'Bless you',
+  'img':'/images/main1.jpg'
+},
+{
+  'name':'Kelvin Gbikeke',
+  'amount':30000,
+  'comment':' Love is enough',
+  'img':'/images/main1.jpg'
+},
+{
+  'name':'Kourtney Ogbe',
+  'amount':50000,
+  'comment':' Hope for all',
+  'img':'/images/main1.jpg'
+}
+]
     };
   },
    mounted(){
