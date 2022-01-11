@@ -63,7 +63,7 @@ export default {
       options: [
         {
           name: "Orphanage Visit",
-          desc: "Visitationof Amazing grace home in warri",
+          desc: "Visiting Amazing grace home in Warri",
           day: 130,
           hrs: 12,
           min: 40,
@@ -90,7 +90,7 @@ export default {
         },
         {
           name: "Help The Needy",
-          desc: "Seed the life ipon which you are created",
+          desc: "Seed the life on which you are created",
           day: 130,
           hrs: 12,
           min: 40,
