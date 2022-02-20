@@ -6,7 +6,7 @@
     <nav
       class="container px-5 mx-auto relative flex justify-between items-center"
     >
-      <div class="logo py-5"><Link href="/" class=" flex items-center"><img src="/images/logocolor.png" class="mr-2 logoimg" alt="keke foundation"/> KEKE FOUNDATION</Link></div>
+      <div class="logo py-5"><Link href="/" class=" flex items-center"><img src="/images/logocolor.png" class="mr-2 logoimg" alt="keke foundation"/> KAY'S COTERIE CARE FOUNDATION</Link></div>
       <MenuAlt3Icon
         @click="toggleMobileNav = !toggleMobileNav"
         class="h-7 w-6 text-white"
@@ -84,9 +84,10 @@
         </li>
         <li>
           <Link :href="route('login')">
-            <BreezeButton class="login-button px-5 py-2 hover:opacity-25"
-              >Log in</BreezeButton
-            >
+
+            <button class="login-button  px-5 py-2 nline-flex items-center px-4 py-2 bg-red-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-red-700 active:bg-red-900 focus:outline-none focus:border-red-900 focus:shadow-outline-red transition ease-in-out duration-150">
+Log in
+            </button>
           </Link>
         </li>
       </ul>

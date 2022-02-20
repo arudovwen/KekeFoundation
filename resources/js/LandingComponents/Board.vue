@@ -5,11 +5,11 @@
         <span class="text-3xl md:text-5xl">120</span> <br>
 <span class="text-lg md:text-xl">Children in 3 states in Nigeria</span>
       </div>
-        <div class="basis-1/4 p-5 bg-red-300">   <span class="text-xl md:text-3xl">Donate Money</span>  <br>
+        <div class="basis-1/4 p-5 bg-red-300">    <a href="/#donate"><span class="text-xl md:text-3xl">Donate Money</span> </a> <br>
 <p class="mb-4">Contribute an amount towards providing a better life for children</p>
 <BreezeButton class="bg-white">Donate now</BreezeButton>
 </div>
-          <div class="basis-1/4 p-5 bg-red-200">  <span class="text-xl md:text-3xl">Be a Volunteer</span>  <br>
+          <div class="basis-1/4 p-5 bg-red-200">  <a href="/#contact"><span class="text-xl md:text-3xl">Be a Volunteer</span></a>  <br>
 <p class="mb-4">Support physically during outreaches and visitations.</p>
 <BreezeButton class="bg-white">Volunteer now</BreezeButton></div>
   </div>

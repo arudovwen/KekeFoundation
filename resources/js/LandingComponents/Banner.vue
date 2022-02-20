@@ -16,7 +16,7 @@
       "
     >
        <span class="banner-text text-center">
-        <h1 class="text-white text-4xl md:text-6xl">KEKE CIRCLE <span class="text-red-500">FOUNDATION</span></h1>
+        <h1 class="text-white text-4xl md:text-5xl mb-4"> KAY'S COTERIE CARE <span class="text-red-500">FOUNDATION</span></h1>
       <p class="text-white text-xl md:text-4xl mb-5">Towards a better life</p>
      <Link href="/gallery"> <BreezeButton class="  md:py-4 px-2 outline bg-transparent"><PlayIcon class="w-4 h-4 mr-1"/> Watch video</BreezeButton></Link>
      </span>

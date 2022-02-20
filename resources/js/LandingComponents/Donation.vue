@@ -1,5 +1,5 @@
 <template>
-  <section id="donation" class="py-20 px-4 md:px-0">
+  <section id="donate" class="py-20 px-4 md:px-0">
     <div class="container mx-auto md:w-10/12">
       <div class="text-center mb-10">
         <h2 class="mb-5 text-xl md:text-3xl font-bold"><span class="text-black">LATEST</span> <span  class="text-red-500">DONATIONS</span></h2>
